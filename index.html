@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weatherly App</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
-
 <body>
+    <div class="weather-app">
 <header>
     <form>
-        <input type="search" placeholder="Enter a city..." required/>
-        <input type="submit" value="Search"/>
+        <input type="search" placeholder="Enter a city..." class="search-form-input" required/>
+        <input type="submit" value="Search" class="search-form-button"/>
     </form> 
 </header>
 <main>
-<h1>Paris</h1>
-<p>Tuesday 14:49, scattered clouds
-</br>Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong></p>
+        <div class="weather-city">
+            <h1>Paris</h1>
+        <div class="weather-details"> 
+            <p>
+            Tuesday 14:49, scattered clouds
+            </br>Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+        </div>
+        </div>
+        <div class="weather-app-data">
+            <div class="weather-app-icon">🌤️</div>
+            <div class="weather-app-temp">12</div>
+            <div class="weather-app-unit">°C</div>
+        </div>
 </main>
 <footer>
   This project was coded by <a href="https://github.com/kimangeles" target="_blank">Kimberly Angeles</a> is <a href="https://github.com/kimangeles" target="_blank"> open-sourced on Github </a> and <a href="weatherlybykea.netlify.app" target="_blank"> hosted on Netlify</a>.
 </footer>
+    </div>
 </body>
 </html>
