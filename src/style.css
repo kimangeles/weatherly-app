@@ -55,6 +55,11 @@ main {
 
 .weather-app-details{
     font-size: 16px;
+    color: grey;
+}
+
+.weather-app-details strong {
+  color: #f65282;
 }
 
 .weather-app-data-container {
@@ -80,7 +85,7 @@ main {
 }
 
 .humidity, .wind {
-    color:palevioletred;
+    color:rgb(199, 78, 118);
 }
 
 footer {
