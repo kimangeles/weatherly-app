@@ -9,14 +9,14 @@
 <body>
     <div class="weather-app">
 <header>
-    <form>
-        <input type="search" placeholder="Enter a city..." class="search-form-input" required/>
+    <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." class="search-form-input" id="search-form-input" required/>
         <input type="submit" value="Search" class="search-form-button"/>
     </form> 
 </header>
 <main>
         <div class="weather-city">
-            <h1>Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
         <div class="weather-details"> 
             <p>
             Tuesday 14:49, scattered clouds
@@ -34,5 +34,6 @@
   This project was coded by <a href="https://github.com/kimangeles" target="_blank">Kimberly Angeles</a> is <a href="https://github.com/kimangeles" target="_blank"> open-sourced on Github </a> and <a href="weatherlybykea.netlify.app" target="_blank"> hosted on Netlify</a>.
 </footer>
     </div>
+    <script src="src/app.js"></script>
 </body>
 </html>
